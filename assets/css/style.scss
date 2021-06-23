@@ -58,6 +58,11 @@ h3 {
     margin: 1.5rem 4rem 0.5rem 4rem;
 }
 
+.about {
+    margin: 0 2.5rem 0 2.5rem;
+    text-align: justify;
+}
+
 .all-technos {
     margin: 1.5rem 0 1.5rem 0;
     display: flex;
@@ -73,11 +78,6 @@ h3 {
 
 .four-technos img {
     margin: 0 0.5rem 0 0.5rem;
-}
-
-.about {
-    margin: 0 2.5rem 0 2.5rem;
-    text-align: justify;
 }
 
 .project {
@@ -172,7 +172,7 @@ button {
 
     main {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1440px;
         display: flex;
     }
 
@@ -185,11 +185,11 @@ button {
     }
 
     .h2-projects {
-        margin-bottom: 3rem;
+        margin: 6rem 0 3rem 0;
     }
 
     .all-infos {
-        width: 100%
+        width: 40%;
     }
 
     .profile-pic {
@@ -202,6 +202,7 @@ button {
     }
 
     .all-projects {
+        width: 60%;
         margin-top: 6rem;
         display: flex;
         flex-direction: column;
